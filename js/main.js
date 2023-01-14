@@ -10,6 +10,6 @@ targets.forEach(element => {
       target2.style.display = 'none'
     });
     element.style.color = 'var(--menu_active_text_color)'
-    target.style.display= 'flex'
+    target.style.display = 'flex'
   })
 })
