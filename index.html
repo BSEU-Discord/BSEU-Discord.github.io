@@ -1,687 +1,580 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <title>BŞEÜ BM Arşivi</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="Content-language" content="tr" /> 
-    <meta name="description" content="BŞEÜ Bilgisayar Mühendisliği Web Sayfası.">
-    <meta name="author" content="Mühendis Bot" />
-    <meta name="title" content="BŞEÜ BM 2"/>
-    <link rel="icon" href="img/logo-yuvarlak.ico" sizes="256x256">
+<head>
+  <title>BŞEÜ BM Arşivi</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-language" content="tr" />
+  <meta name="description" content="BŞEÜ Bilgisayar Mühendisliği Web Sayfası.">
+  <meta name="author" content="Mühendis Bot" />
+  <meta name="title" content="BŞEÜ BM 2" />
+  <link rel="icon" href="img/logo-yuvarlak.ico" sizes="256x256">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <meta property="og:title" content="BŞEÜ BM 2" />
-    <meta property="og:image" content="img/logo.png" />
-    <meta property="og:author" content="Mühendis Bot" />
-    <meta property="og:description" content="BŞEÜ Bilgisayar Mühendisliği Web Sayfası." />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&amp;display=swap">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+  <meta property="og:title" content="BŞEÜ BM 2" />
+  <meta property="og:image" content="img/logo.png" />
+  <meta property="og:author" content="Mühendis Bot" />
+  <meta property="og:description" content="BŞEÜ Bilgisayar Mühendisliği Web Sayfası." />
 
-  <body onselectstart="return false">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&amp;display=swap">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <header>
+<body onselectstart="return false">
 
-      <div class="header_img flex_column_center">
-        <img src="img/logo.png" alt="Logo" />
+  <header>
+
+    <div class="header_img flex_column_center">
+      <img src="img/logo.png" alt="Logo" />
+    </div>
+
+    <div class="header_text flex_column_center">
+      <h1>Bilgisayar Mühendisliği Arşivi</h1>
+    </div>
+
+    <!-- <div class="header_svg_list flex_row_center">
+      <p>&nbsp;&nbsp;&nbsp;</p>
+      <div class="header_svg_item">
+        <a href="https://www.discord.com" target="_blank" rel="nofollow">
+          <svg enable-background="new 0 0 24 24" viewBox="0 0 24 24">
+            <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z" />
+          </svg>
+        </a>
       </div>
-      
-      <div class="header_text flex_column_center">
-        <h1>Bilgisayar Mühendisliği Arşivi</h1>
-      </div>
+    </div> -->
 
-      <div class="header_svg_list flex_row_center"> 
-        <p>&nbsp;&nbsp;&nbsp;</p>
-        <div class="header_svg_item">
-          <a href="https://www.davet.com" target="_blank" rel="nofollow">
-            <svg enable-background="new 0 0 24 24" viewBox="0 0 24 24">
-              <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
-            </svg>
-          </a>
-        </div>
-      </div>
-
-
-  <nav>      <!-- Seçim Menüsü -->
-    <ul class="header_nav_menu_list flex_no_wrap_row_center">
-      <li data-target="#main_section_container_0" id="header_nav_menu_item_0" class="header_nav_menu_item" href="">Ana Sayfa</li>
-    </ul> 
-    <ul class="header_nav_menu_list flex_no_wrap_row_center">
-      <li data-target="#main_section_container_1" id="header_nav_menu_item_1" class="header_nav_menu_item" href="">1. Dönem</li>
-      <li data-target="#main_section_container_2" id="header_nav_menu_item_2" class="header_nav_menu_item" href="">2. Dönem</li>
-      <li data-target="#main_section_container_3" id="header_nav_menu_item_3" class="header_nav_menu_item" href="">3. Dönem</li>
-      <li data-target="#main_section_container_4" id="header_nav_menu_item_4" class="header_nav_menu_item" href="">4. Dönem</li>
-      <li data-target="#main_section_container_5" id="header_nav_menu_item_5" class="header_nav_menu_item" href="">5. Dönem</li>
-      <li data-target="#main_section_container_6" id="header_nav_menu_item_6" class="header_nav_menu_item" href="">6. Dönem</li>
-    </ul>
-  </nav>
-
-  <!-- <nav>
-    <ul class="header_nav_menu_list flex_no_wrap_row_center">
-      <li data-target="#main_section_container_0" id="header_nav_menu_item_0" class="header_nav_menu_item" href="">Ana Sayfa</li>
-    </ul> 
-    <ul class="header_nav_menu_list flex_no_wrap_row_center">
-      <li data-target="#main_section_container_1" id="header_nav_menu_item_1" class="header_nav_menu_item" href="">1. Dönem</li>
-      <li data-target="#main_section_container_3" id="header_nav_menu_item_3" class="header_nav_menu_item" href="">3. Dönem</li>
-      <li data-target="#main_section_container_5" id="header_nav_menu_item_5" class="header_nav_menu_item" href="">5. Dönem</li>
-      <li data-target="#main_section_container_7" id="header_nav_menu_item_7" class="header_nav_menu_item" href="">7. Dönem</li>
-    </ul>      
-    <ul class="header_nav_menu_list flex_no_wrap_row_center">
-      <li data-target="#main_section_container_2" id="header_nav_menu_item_2" class="header_nav_menu_item" href="">2. Dönem</li>
-      <li data-target="#main_section_container_4" id="header_nav_menu_item_4" class="header_nav_menu_item" href="">4. Dönem</li>
-      <li data-target="#main_section_container_6" id="header_nav_menu_item_6" class="header_nav_menu_item" href="">6. Dönem</li>
-      <li data-target="#main_section_container_8" id="header_nav_menu_item_8" class="header_nav_menu_item" href="">8. Dönem</li>
-    </ul>
-  </nav> -->
+    <nav> <!-- Seçim Menüsü -->
+      <ul class="header_nav_menu_list flex_no_wrap_row_center">
+        <li data-target="#main_section_container_0" id="header_nav_menu_item_0" class="header_nav_menu_item" href="">Ana
+          Sayfa</li>
+      </ul>
+      <ul class="header_nav_menu_list flex_no_wrap_row_center">
+        <li data-target="#main_section_container_1" id="header_nav_menu_item_1" class="header_nav_menu_item" href="">1.
+          Dönem</li>
+        <li data-target="#main_section_container_2" id="header_nav_menu_item_2" class="header_nav_menu_item" href="">2.
+          Dönem</li>
+        <li data-target="#main_section_container_3" id="header_nav_menu_item_3" class="header_nav_menu_item" href="">3.
+          Dönem</li>
+        <li data-target="#main_section_container_4" id="header_nav_menu_item_4" class="header_nav_menu_item" href="">4.
+          Dönem</li>
+        <li data-target="#main_section_container_5" id="header_nav_menu_item_5" class="header_nav_menu_item" href="">5.
+          Dönem</li>
+        <li data-target="#main_section_container_6" id="header_nav_menu_item_6" class="header_nav_menu_item" href="">6.
+          Dönem</li>
+      </ul>
+    </nav>
 
   </header>
 
   <main>
 
-  <!--------------------- Ana Menü --------------------------->
-  <section id="main_section_container_0" class="flex_column_center"> 
+    <!--------------------- Ana Menü --------------------------->
+    <section id="main_section_container_0" class="flex_column_center">
 
-    <div class="main_text_item">    <!-- Açıklama -->
-      <p>BŞEÜ Bilgisayar Mühendisliği Arşivine Hoş Geldiniz. (Beta)</p>
-	  <p>Discord Sunucusu Yakında Erişebilir Olacaktır.</p>
-    </div>
+      <div class="main_text_item"> <!-- Açıklama -->
+        <p>BŞEÜ Bilgisayar Mühendisliği Arşivine Hoş Geldiniz. (Beta)</p>
+        <p>Discord Sunucusu Yakında Erişebilir Olacaktır.</p>
+      </div>
 
-    <div class="main_small_button_list">   <!-- 1. Satır -->
+      <div class="main_small_button_list"> <!-- 1. Satır -->
         <a class="main_small_a_item" href="https://obs.bilecik.edu.tr/" target="_blank" rel="nofollow">
-            <button class="main_small_button_item">OBS</button>
+          <button class="main_small_button_item">OBS</button>
         </a>
         <a class="main_small_a_item" href="https://ders.bilecik.edu.tr/" target="_blank" rel="nofollow">
-            <button class="main_small_button_item">Uzem</button>
+          <button class="main_small_button_item">Uzem</button>
         </a>
-    </div>
+      </div>
 
-    <div class="main_small_button_list">   <!-- 2. Satır -->
-      <a class="main_small_a_item" href="http://w3.bilecik.edu.tr/muhendislik/tum-duyurular/" target="_blank" rel="nofollow">
+      <div class="main_small_button_list"> <!-- 2. Satır -->
+        <a class="main_small_a_item" href="http://w3.bilecik.edu.tr/muhendislik/tum-duyurular/" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">Mühendislik Duyuruları</button>
-      </a>
-      <a class="main_small_a_item" href="http://w3.bilecik.edu.tr/bilgisayar/tum-duyurular/" target="_blank" rel="nofollow">
+        </a>
+        <a class="main_small_a_item" href="http://w3.bilecik.edu.tr/bilgisayar/tum-duyurular/" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">BM Duyuruları</button>
+        </a>
+      </div>
+
+      <a class="main_a_item" href="https://mega.nz/megadrop/t_M3Jms0J7M" target="_blank" rel="nofollow">
+        <button class="main_button_item">Dosya Yükle (Mega)</button>
       </a>
-    </div>
 
-    <a class="main_a_item" href="http://www.davet.com" target="_blank" rel="nofollow">
-      <button class="main_button_item">Discord Sunucusu</button>
-    </a>
+      <a class="main_a_item" href="https://www.discord.com" target="_blank" rel="nofollow">
+        <button disabled="disabled" class="main_button_item">Discord Sunucusu (Yakında)</button>
+      </a>
 
-    <a class="main_a_item" href="https://mega.nz/megadrop/t_M3Jms0J7M" target="_blank" rel="nofollow">
-      <button class="main_button_item">Dosya Yükle (Mega)</button>
-    </a> 
+      <a class="main_a_item" href="mailto:iletisim.discord.bseu@gmail.com?subject=Arşiv Sitesi Hakkında."
+        target="_blank" rel="nofollow">
+        <button class="main_button_item">İletişim</button>
+      </a>
 
-    <a class="main_a_item" href="mailto:iletisim.discord.bseu@gmail.com?subject=Arşiv Sitesi Hakkında." target="_blank" rel="nofollow">
-      <button class="main_button_item">İletişim</button>
-    </a>
+    </section>
 
-  </section>
+    <!-------------------- Güz Dönemi -------------------------->
 
-  <!-------------------- Güz Dönemi -------------------------->
+    <!-- 1. Dönem Start-->
+    <section id="main_section_container_1" class="flex_column_center">
 
-  <!-- 1. Dönem Start-->
-  <section id="main_section_container_1" class="flex_column_center">
-    
+      <!-- Üstte Upload -->
+      <div class="main_text_item">
+        <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
+        <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz. </p>
+      </div>
+      <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060245191807742012" target="_blank"
+        rel="nofollow">
+        <button class="main_button_item">1. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
+      </a>
+      <a class="main_a_item" href="https://mega.nz/megadrop/M3YqN8IOwuE" target="_blank" rel="nofollow">
+        <button class="main_button_item">1. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
+      </a>
 
-    <!-- Üstte Upload -->
-    <div class="main_text_item">        
-      <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
-      <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz.  </p>
-    </div>
 
-    <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060245191807742012" target="_blank" rel="nofollow">  
-      <button class="main_button_item">1. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
-    </a>
-    
-    <a class="main_a_item" href="https://mega.nz/megadrop/CwYfIO0lTrY" target="_blank" rel="nofollow">  
-      <button class="main_button_item">1. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
-    </a>
+      <div class="main_text_item">
+        <p>1. Yıl 1. Dönem Derslerinin Arşivleri</p>
+      </div>
 
-    
-    <div class="main_text_item">
-      <p>1. Yıl 1. Dönem Derslerinin Arşivleri</p>
-    </div>
-  
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="https://mega.nz/folder/0pYwBLjY#AnYPBTFYSx_QAsxFWFdi1w" target="_blank" rel="nofollow">
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="https://mega.nz/folder/0pYwBLjY#AnYPBTFYSx_QAsxFWFdi1w" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">BM101 Bilgisayar Mühendisliğine Giriş</button>
-      </a>
-      <a class="main_small_a_item" href="https://mega.nz/folder/B1I3WZ5B#GSrSM8206rnA4NvLZpIYPQ" target="_blank" rel="nofollow">
+        </a>
+        <a class="main_small_a_item" href="https://mega.nz/folder/B1I3WZ5B#GSrSM8206rnA4NvLZpIYPQ" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">BM103 Bilgisayar Programlama I</button>
-      </a>a
-    </div>  
-  
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="https://mega.nz/folder/okhE0S5A#K1WG3xSIFIoYcB3OGul6ZA" target="_blank" rel="nofollow">
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="https://mega.nz/folder/okhE0S5A#K1WG3xSIFIoYcB3OGul6ZA" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">FIZ101 Fizik I</button>
-      </a>
-      <a class="main_small_a_item" href="https://mega.nz/folder/5xIhWRgQ#kgKvGb5I5REOBeTB1OXAhQ" target="_blank" rel="nofollow">
+        </a>
+        <a class="main_small_a_item" href="https://mega.nz/folder/5xIhWRgQ#kgKvGb5I5REOBeTB1OXAhQ" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">MAT101 Matematik I</button>
-      </a>
-    </div> 
-  
-    <div class="main_small_button_list"> 
-      <a class="main_small_a_item" href="https://mega.nz/folder/V9pSAb6b#IXJuvhm4pAeL03qJGEICCA" target="_blank" rel="nofollow">
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="https://mega.nz/folder/V9pSAb6b#IXJuvhm4pAeL03qJGEICCA" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">MAT103 Lineer Cebir</button>
-      </a>
-      <a class="main_small_a_item" href="https://mega.nz/folder/5xIhWRgQ#kgKvGb5I5REOBeTB1OXAhQ" target="_blank" rel="nofollow">
+        </a>
+        <a class="main_small_a_item" href="https://mega.nz/folder/5xIhWRgQ#kgKvGb5I5REOBeTB1OXAhQ" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">ENG101 İngilizce I</button>
-      </a>
-    </div> 
-    
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="https://mega.nz/folder/Qp5hkIgS#TaegCwsysIGorDcBOXGxMg" target="_blank" rel="nofollow">
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="https://mega.nz/folder/Qp5hkIgS#TaegCwsysIGorDcBOXGxMg" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">TRK101 Türk Dili I</button>
-      </a>
-      <a class="main_small_a_item" href="https://mega.nz/folder/loBHiZAQ#-q3CTmUO-Y_r2JwLJy29eQ" target="_blank" rel="nofollow">
+        </a>
+        <a class="main_small_a_item" href="https://mega.nz/folder/loBHiZAQ#-q3CTmUO-Y_r2JwLJy29eQ" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">ATA101 Atatürk İlkeleri ve İnkılap Tarihi I</button>
+        </a>
+      </div>
+
+    </section>
+
+    <!-- 3. Dönem Start-->
+    <section id="main_section_container_3" class="flex_column_center">
+
+      <!-- Üstte Upload -->
+      <div class="main_text_item">
+        <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
+        <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz. </p>
+      </div>
+      <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060245887474995273" target="_blank"
+        rel="nofollow">
+        <button class="main_button_item">3. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
       </a>
-    </div>
-  
-    <!-- Altta Upload -->
-    <!-- <div class="main_text_item">
-      <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
-      <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz.  </p>
-    </div>
+      <a class="main_a_item" href="https://mega.nz/megadrop/rt2I1fwkrdo" target="_blank" rel="nofollow">
+        <button class="main_button_item">3. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
+      </a>
 
-    <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060245191807742012" target="_blank" rel="nofollow">  
-      <button class="main_button_item">1. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
-    </a>
-    
-    <a class="main_a_item" href="https://mega.nz/megadrop/CwYfIO0lTrY" target="_blank" rel="nofollow">  
-      <button class="main_button_item">1. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
-    </a>  -->
-  
-  <!-- <iframe width="250" height="54" frameborder="0" src="https://mega.nz/drop#!ak--0HajqzE!d!en"></iframe> -->
-  
-  </section>
 
-  <!-- 3. Dönem Start-->
-  <section id="main_section_container_3" class="flex_column_center"> 
-    
-    <!-- Üstte Upload -->
-    <div class="main_text_item">
-      <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
-      <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz.  </p>
-    </div>
-    <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060245887474995273" target="_blank" rel="nofollow">  
-      <button class="main_button_item">3. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
-    </a>
-    <a class="main_a_item" href="https://mega.nz/megadrop/pcs-2yQxB-E" target="_blank" rel="nofollow">  
-      <button class="main_button_item">3. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
-    </a> 
-    
-    
-    <div class="main_text_item">
-      <p>2. Yıl 1. Dönem Derslerinin Arşivleri</p>
-    </div>
-  
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="https://mega.nz/folder/8kRnUTLR#j4zPKtoMfQKhBzMCOrDzPA" target="_blank" rel="nofollow">
+      <div class="main_text_item">
+        <p>2. Yıl 1. Dönem Derslerinin Arşivleri</p>
+      </div>
+
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="https://mega.nz/folder/8kRnUTLR#j4zPKtoMfQKhBzMCOrDzPA" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">BM207 Ölçme ve Donanım Laboratuarı</button>
-      </a>
-      <a class="main_small_a_item" href="https://mega.nz/folder/hx5FUIzK#juMFsjpJwUNCbqHlUCGVHw" target="_blank" rel="nofollow">
+        </a>
+        <a class="main_small_a_item" href="https://mega.nz/folder/hx5FUIzK#juMFsjpJwUNCbqHlUCGVHw" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">BM211 Nesneye Dayalı Programlama</button>
-      </a>
-    </div>  
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="https://mega.nz/folder/94pjmBDZ#BtxjAaAFq2zdoUvNipdEsA" target="_blank" rel="nofollow">
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="https://mega.nz/folder/94pjmBDZ#BtxjAaAFq2zdoUvNipdEsA" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">BM213 Olasılık ve İstatistik</button>
-      </a>
-      <a class="main_small_a_item" href="https://mega.nz/folder/R0RFkQIZ#ItOrzvXr9RsC-R9O-eJStA" target="_blank" rel="nofollow">
+        </a>
+        <a class="main_small_a_item" href="https://mega.nz/folder/R0RFkQIZ#ItOrzvXr9RsC-R9O-eJStA" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">BM215 Devre Teorisi</button>
-      </a>
-    </div> 
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="https://mega.nz/folder/JgQ2XKpD#6sA_84fHodDsZkgELO5klw" target="_blank" rel="nofollow">
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="https://mega.nz/folder/JgQ2XKpD#6sA_84fHodDsZkgELO5klw" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">BM217 Sayısal Tasarım</button>
-      </a>
-      <a class="main_small_a_item" href="https://mega.nz/folder/RhZnHA6b#3dIrWe5ozqOC9cVlK06IWQ" target="_blank" rel="nofollow">
+        </a>
+        <a class="main_small_a_item" href="https://mega.nz/folder/RhZnHA6b#3dIrWe5ozqOC9cVlK06IWQ" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">BM219 İnternet Programlama</button>
-      </a>
-    </div> 
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="https://mega.nz/folder/tlZySRgJ#-fradXPXmzwDCHpvQ9iugA" target="_blank" rel="nofollow">
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="https://mega.nz/folder/tlZySRgJ#-fradXPXmzwDCHpvQ9iugA" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">ENG201 Teknik İngilizce I</button>
+        </a>
+      </div>
+
+    </section>
+
+    <!-- 5. Dönem Start-->
+    <section id="main_section_container_5" class="flex_column_center">
+
+      <!-- Üstte Upload -->
+      <div class="main_text_item">
+        <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
+        <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz. </p>
+      </div>
+      <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060246658358714480" target="_blank"
+        rel="nofollow">
+        <button class="main_button_item">5. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
       </a>
-    </div>
-  
-    <!-- Altta Upload -->
-    <!-- <div class="main_text_item">
-      <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
-      <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz.  </p>
-    </div>
-    <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060245887474995273" target="_blank" rel="nofollow">  
-      <button class="main_button_item">3. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
-    </a>
-    <a class="main_a_item" href="https://mega.nz/megadrop/pcs-2yQxB-E" target="_blank" rel="nofollow">  
-      <button class="main_button_item">3. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
-    </a>  -->
-  
-  <!-- <iframe width="250" height="54" frameborder="0" src="https://mega.nz/drop#!MGcupPdadFU!d!en"></iframe> -->
-  
-  </section>
-
-  <!-- 5. Dönem Start-->
-  <section id="main_section_container_5" class="flex_column_center"> 
-    
-    <!-- Üstte Upload -->
-    <div class="main_text_item">
-      <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
-      <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz.  </p>
-    </div>
-    <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060246658358714480" target="_blank" rel="nofollow">  
-      <button class="main_button_item">5. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
-    </a>
-    <a class="main_a_item" href="https://mega.nz/megadrop/C67UXOZfP2U" target="_blank" rel="nofollow">  
-      <button class="main_button_item">5. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
-    </a> 
+      <a class="main_a_item" href="https://mega.nz/megadrop/RnXf6_xlI5o" target="_blank" rel="nofollow">
+        <button class="main_button_item">5. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
+      </a>
 
 
-    <div class="main_text_item">
-      <p>3. Yıl 1. Dönem Derslerinin Arşivleri</p>
-    </div>
-  
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="https://mega.nz/folder/k8YDGTKJ#zgHgpwSTUP9RsRBnBe4sfQ" target="_blank" rel="nofollow">
+      <div class="main_text_item">
+        <p>3. Yıl 1. Dönem Derslerinin Arşivleri</p>
+      </div>
+
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="https://mega.nz/folder/k8YDGTKJ#zgHgpwSTUP9RsRBnBe4sfQ" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">BM301 İşletim Sistemleri</button>
-      </a>
-      <a class="main_small_a_item" href="https://mega.nz/folder/1h4U3RaI#CloeS5iY_ok7jWc-a3bI3Q" target="_blank" rel="nofollow">
+        </a>
+        <a class="main_small_a_item" href="https://mega.nz/folder/1h4U3RaI#CloeS5iY_ok7jWc-a3bI3Q" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">BM303 Bilgisayar Mimarisi ve Organizasyonu</button>
-      </a>
-    </div>  
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="https://mega.nz/folder/Y1wyyRLT#y3uEODJibhVSxkdvV5pJ-Q" target="_blank" rel="nofollow">
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="https://mega.nz/folder/Y1wyyRLT#y3uEODJibhVSxkdvV5pJ-Q" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">BM307 Mikroişlemcili Sistemler</button>
-      </a>
-      <a class="main_small_a_item" href="https://mega.nz/folder/whJ1yDLY#M4p6ecuy3pt2L0n8LiLwYA" target="_blank" rel="nofollow">
+        </a>
+        <a class="main_small_a_item" href="https://mega.nz/folder/whJ1yDLY#M4p6ecuy3pt2L0n8LiLwYA" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">BM309 Mesleki İngilizce I</button>
-      </a>
-    </div> 
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="https://mega.nz/folder/shp0QJhQ#Bc0T-F4UHFlo7kjD3qGPkQ" target="_blank" rel="nofollow">
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="https://mega.nz/folder/shp0QJhQ#Bc0T-F4UHFlo7kjD3qGPkQ" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">BM329 Biçimsel Diller ve Soyut Makineler</button>
-      </a>
-      <a class="main_small_a_item" href="https://mega.nz/folder/h1wimBjJ#kojHRASqG6lZlopA_m-jsQ" target="_blank" rel="nofollow">
+        </a>
+        <a class="main_small_a_item" href="https://mega.nz/folder/h1wimBjJ#kojHRASqG6lZlopA_m-jsQ" target="_blank"
+          rel="nofollow">
           <button class="main_small_button_item">MSG101 İş Sağlığı ve Güvenliği I</button>
+        </a>
+      </div>
+      <a class="main_a_item" href="https://mega.nz/folder/g1on2TLK#BxSFcp_pgSe9EF5itafRoQ" target="_blank"
+        rel="nofollow">
+        <button class="main_button_item">MÜH BM Teknik Olmayan Seçmeli I</button>
       </a>
-    </div> 
-    <a class="main_a_item" href="https://mega.nz/folder/g1on2TLK#BxSFcp_pgSe9EF5itafRoQ" target="_blank" rel="nofollow">
-      <button class="main_button_item">MÜH BM Teknik Olmayan Seçmeli I</button>
-    </a> 
-  
-    <!-- Altta Upload -->
-    <!-- <div class="main_text_item">
-      <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
-      <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz.  </p>
-    </div>
-    <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060246658358714480" target="_blank" rel="nofollow">  
-      <button class="main_button_item">5. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
-    </a>
-    <a class="main_a_item" href="https://mega.nz/megadrop/C67UXOZfP2U" target="_blank" rel="nofollow">  
-      <button class="main_button_item">5. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
-    </a>  -->
-  
-  <!-- <iframe width="250" height="54" frameborder="0" src="https://mega.nz/drop#"></iframe> -->
-  
-  </section>
 
-  <!-- 7. Dönem Start-->
-  <section id="main_section_container_7" class="flex_column_center"> 
-    
-    <!-- Üstte Upload -->
-    <div class="main_text_item">
-      <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
-      <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz.  </p>
-    </div>
-    <a class="main_a_item" href="https://discord.com" target="_blank" rel="nofollow">  
-      <button disabled="disabled" class="main_button_item">7. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
-    </a>
-    <a class="main_a_item" href="https://mega.nz/megadrop/V_SUeoin4mc" target="_blank" rel="nofollow">  
-      <button disabled="disabled" class="main_button_item">7. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
-    </a> 
+    </section>
+
+    <!-- 7. Dönem Start-->
+    <section id="main_section_container_7" class="flex_column_center">
+
+      <!-- Üstte Upload -->
+      <div class="main_text_item">
+        <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
+        <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz. </p>
+      </div>
+      <a class="main_a_item" href="https://discord.com" target="_blank" rel="nofollow">
+        <button disabled="disabled" class="main_button_item">7. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
+      </a>
+      <a class="main_a_item" href="https://mega.nz/megadrop/V_SUeoin4mc" target="_blank" rel="nofollow">
+        <button disabled="disabled" class="main_button_item">7. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
+      </a>
 
 
-    <div class="main_text_item">
-      <p>4. Yıl 1. Dönem Derslerinin Arşivleri</p>
-    </div>
-  
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item"> Ders Adı </button>
-      </a>
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item"> Ders Adı </button>
-      </a>
-    </div>  
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item"> Ders Adı </button>
-      </a>
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item"> Ders Adı </button>
-      </a>
-    </div> 
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item"> Ders Adı </button>
-      </a>
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item"> Ders Adı </button>
-      </a>
-    </div> 
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item"> Ders Adı </button>
-      </a>
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item"> Ders Adı </button>
-      </a>
-    </div>
+      <div class="main_text_item">
+        <p>4. Yıl 1. Dönem Derslerinin Arşivleri</p>
+      </div>
 
-     <!-- Altta Upload -->
-    <!-- <div class="main_text_item">
-      <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
-      <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz.  </p>
-    </div>
-    <a class="main_a_item" href="https://discord.com" target="_blank" rel="nofollow">  
-      <button class="main_button_item">7. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
-    </a>
-    <a class="main_a_item" href="https://mega.nz/megadrop/V_SUeoin4mc" target="_blank" rel="nofollow">  
-      <button class="main_button_item">7. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
-    </a>  -->
-  
-  <!-- <iframe width="250" height="54" frameborder="0" src="https://mega.nz/drop#"></iframe> -->
-  
-  </section> 
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b"> Ders Adı </button>
+        </a>
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b"> Ders Adı </button>
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b"> Ders Adı </button>
+        </a>
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b"> Ders Adı </button>
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b"> Ders Adı </button>
+        </a>
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b"> Ders Adı </button>
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b"> Ders Adı </button>
+        </a>
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b"> Ders Adı </button>
+        </a>
+      </div>
 
-  <!------------------ Bahar Dönemi ---------------------------->
+    </section>
 
-  <!-- 2. Dönem Start-->
-  <section id="main_section_container_2" class="flex_column_center"> 
-    
-    <!-- Üstte Upload -->
-    <div class="main_text_item">
-      <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
-      <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz.  </p>
-    </div>
+    <!------------------ Bahar Dönemi ---------------------------->
 
-    <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060245243523506340" target="_blank" rel="nofollow">  
-      <button class="main_button_item">2. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
-    </a>
-    
-    <a class="main_a_item" href="https://mega.nz/megadrop/BCW7n3YO36I" target="_blank" rel="nofollow">  
-      <button class="main_button_item">2. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
-    </a> 
+    <!-- 2. Dönem Start-->
+    <section id="main_section_container_2" class="flex_column_center">
 
-    <div class="main_text_item">
-      <p>1. Yıl 2. Dönem Derslerinin Arşivleri Düzenleniyor!</p>
-    </div>
-  
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">BM104 Kesikli Matematiksel Yapılar</button>
+      <!-- Üstte Upload -->
+      <div class="main_text_item">
+        <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
+        <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz. </p>
+      </div>
+      <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060245243523506340" target="_blank"
+        rel="nofollow">
+        <button class="main_button_item">2. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
       </a>
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">BM106 Bilgisayar Programlama II</button>
+      <a class="main_a_item" href="https://mega.nz/megadrop/UUuhg7aEUxE" target="_blank" rel="nofollow">
+        <button class="main_button_item">2. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
       </a>
-    </div>  
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">FIZ102 Fizik II</button>
-      </a>
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">MAT102 Matematik II</button>
-      </a>
-    </div> 
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">TRK102 Türk Dili II</button>
-      </a>
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">ENG102 İngilizce II</button>
-      </a>
-    </div> 
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">MÜH BM Sosyal Seçmeli I</button>
-      </a>
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">ATA102 Atatürk İlkeleri ve İnkılap Tarihi II</button>
-      </a>
-    </div>
-  
-    <!-- Altta Upload -->
-    <!-- <div class="main_text_item">
-      <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
-      <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz.  </p>
-    </div>
-
-    <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060245243523506340" target="_blank" rel="nofollow">  
-      <button class="main_button_item">2. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
-    </a>
-    
-    <a class="main_a_item" href="https://mega.nz/megadrop/BCW7n3YO36I" target="_blank" rel="nofollow">  
-      <button class="main_button_item">2. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
-    </a>  -->
-  
-  <!-- <iframe width="250" height="54" frameborder="0" src="https://mega.nz/drop#"></iframe> -->
-  
-  </section>
-
-  <!-- 4. Dönem Start-->
-  <section id="main_section_container_4" class="flex_column_center"> 
-    
-    <!-- Üstte Upload -->
-    <div class="main_text_item">
-      <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
-      <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz.  </p>
-    </div>
-
-    <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060246628985995267" target="_blank" rel="nofollow">  
-      <button class="main_button_item">4. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
-    </a>
-    
-    <a class="main_a_item" href="https://mega.nz/megadrop/XalB2jo02P8" target="_blank" rel="nofollow">  
-      <button class="main_button_item">4. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
-    </a>
-
-    <div class="main_text_item">
-      <p>2. Yıl 2. Dönem Derslerinin Arşivleri Düzenleniyor!</p>
-    </div>
-  
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">BM202 Sayısal Çözümleme</button>
-      </a>
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">BM208 Veri Yapıları ve Algoritmalar</button>
-      </a>
-    </div>  
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">BM210 Veri Tabanı Yönetim Sistemleri</button>
-      </a>
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">BM214 Elektronik Devreler</button>
-      </a>
-    </div> 
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item"> BM216 İşaret ve Sistemler</button>
-      </a>
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">ENG202 Teknik İngilizce II</button>
-      </a>
-    </div> 
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">MÜH BM Sosyal Seçmeli II</button>
-      </a>
-    </div>
-  
-    <!-- Altta Upload -->
-    <!-- <div class="main_text_item">
-      <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
-      <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz.  </p>
-    </div>
-
-    <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060246628985995267" target="_blank" rel="nofollow">  
-      <button class="main_button_item">4. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
-    </a>
-    
-    <a class="main_a_item" href="https://mega.nz/megadrop/XalB2jo02P8" target="_blank" rel="nofollow">  
-      <button class="main_button_item">4. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
-    </a>  -->
-  
-  <!-- <iframe width="250" height="54" frameborder="0" src="https://mega.nz/drop#"></iframe> -->
-  
-  </section>
-
-  <!-- 6. Dönem Start-->
-  <section id="main_section_container_6" class="flex_column_center"> 
-    
-    <!-- Üstte Upload -->
-    <div class="main_text_item">
-      <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
-      <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz.  </p>
-    </div>
-    <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060246677740593152" target="_blank" rel="nofollow">  
-      <button class="main_button_item">6. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
-    </a>
-    <a class="main_a_item" href="https://mega.nz/megadrop/KPqc-zQtf1s" target="_blank" rel="nofollow">  
-      <button class="main_button_item">6. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
-    </a> 
 
 
-    <div class="main_text_item">
-      <p>3. Yıl 2. Dönem Derslerinin Arşivleri Düzenleniyor!</p>
-    </div>
-  
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">BM302 Yazılım Mühendisliği</button>
-      </a>
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">BM308 Bilgisayar Ağları</button>
-      </a>
-    </div>  
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">BM310 Mesleki İngilizce II</button>
-      </a>
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item">MSG102 İş Sağlığı ve Güvenliği II</button>
-      </a>
-    </div> 
+      <div class="main_text_item">
+        <p>1. Yıl 2. Dönem Derslerinin Arşivleri Düzenleniyor!</p>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">BM104 Kesikli Matematiksel Yapılar</button>
+        </a>
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">BM106 Bilgisayar Programlama II</button>
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">FIZ102 Fizik II</button>
+        </a>
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">MAT102 Matematik II</button>
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">TRK102 Türk Dili II</button>
+        </a>
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">ENG102 İngilizce II</button>
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">MÜH BM Sosyal Seçmeli I</button>
+        </a>
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">ATA102 Atatürk İlkeleri ve İnkılap Tarihi
+            II</button>
+        </a>
+      </div>
 
-    <a class="main_a_item" href="#link" target="_blank" rel="nofollow">
-      <button disabled="disabled" class="main_button_item">MÜH BM Teknik Seçmeli I</button>
-    </a> 
-    <a class="main_a_item" href="#link" target="_blank" rel="nofollow">
-      <button disabled="disabled" class="main_button_item">MÜH BM Teknik Olmayan Seçmeli II</button>
-    </a> 
-    
-    <!-- Altta Upload -->
-    <!-- <div class="main_text_item">
-      <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
-      <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz.  </p>
-    </div>
-    <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060246677740593152" target="_blank" rel="nofollow">  
-      <button class="main_button_item">6. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
-    </a>
-    <a class="main_a_item" href="https://mega.nz/megadrop/KPqc-zQtf1s" target="_blank" rel="nofollow">  
-      <button class="main_button_item">6. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
-    </a>  -->
-  
-  <!-- <iframe width="250" height="54" frameborder="0" src="https://mega.nz/drop#"></iframe> -->
-  
-  </section>
+    </section>
 
-  <!-- 8. Dönem Start-->
-  <section id="main_section_container_8" class="flex_column_center"> 
-    
-    <!-- Üstte Upload -->
-    <div class="main_text_item">
-      <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
-      <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz.  </p>
-    </div>
-    <a class="main_a_item" href="https://discord.com" target="_blank" rel="nofollow">  
-      <button class="main_button_item">8. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
-    </a>
-    <a class="main_a_item" href="https://mega.nz/megadrop/rrepTw_xrm8" target="_blank" rel="nofollow">  
-      <button class="main_button_item">8. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
-    </a> 
+    <!-- 4. Dönem Start-->
+    <section id="main_section_container_4" class="flex_column_center">
+
+      <!-- Üstte Upload -->
+      <div class="main_text_item">
+        <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
+        <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz. </p>
+      </div>
+      <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060246628985995267" target="_blank"
+        rel="nofollow">
+        <button class="main_button_item">4. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
+      </a>
+      <a class="main_a_item" href="https://mega.nz/megadrop/PS0BwSjYImE" target="_blank" rel="nofollow">
+        <button class="main_button_item">4. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
+      </a>
+
+      <div class="main_text_item">
+        <p>2. Yıl 2. Dönem Derslerinin Arşivleri Düzenleniyor!</p>
+      </div>
+
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">BM202 Sayısal Çözümleme</button>
+        </a>
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">BM208 Veri Yapıları ve Algoritmalar</button>
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">BM210 Veri Tabanı Yönetim Sistemleri</button>
+        </a>
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">BM214 Elektronik Devreler</button>
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b"> BM216 İşaret ve Sistemler</button>
+        </a>
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">ENG202 Teknik İngilizce II</button>
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">MÜH BM Sosyal Seçmeli II</button>
+        </a>
+      </div>
+
+    </section>
+
+    <!-- 6. Dönem Start-->
+    <section id="main_section_container_6" class="flex_column_center">
+
+      <!-- Üstte Upload -->
+      <div class="main_text_item">
+        <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
+        <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz. </p>
+      </div>
+      <a class="main_a_item" href="https://discord.com/channels/1023223652763848775/1060246677740593152" target="_blank"
+        rel="nofollow">
+        <button class="main_button_item">6. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
+      </a>
+      <a class="main_a_item" href="https://mega.nz/megadrop/3zYeA0p_JhU" target="_blank" rel="nofollow">
+        <button class="main_button_item">6. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
+      </a>
 
 
-    <div class="main_text_item">
-      <p>4. Yıl 2. Dönem Derslerinin Arşivleri Düzenleniyor!</p>
-    </div>
-  
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item"> Ders Adı </button>
+      <div class="main_text_item">
+        <p>3. Yıl 2. Dönem Derslerinin Arşivleri Düzenleniyor!</p>
+      </div>
+
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">BM302 Yazılım Mühendisliği</button>
+        </a>
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">BM308 Bilgisayar Ağları</button>
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">BM310 Mesleki İngilizce II</button>
+        </a>
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b">MSG102 İş Sağlığı ve Güvenliği II</button>
+        </a>
+      </div>
+      <a class="main_a_item" href="#link" target="_blank" rel="nofollow">
+        <button disabled="disabled" class="main_button_item">MÜH BM Teknik Seçmeli I</button>
       </a>
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item"> Ders Adı </button>
+      <a class="main_a_item" href="#link" target="_blank" rel="nofollow">
+        <button disabled="disabled" class="main_button_item">MÜH BM Teknik Olmayan Seçmeli II</button>
       </a>
-    </div>  
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item"> Ders Adı </button>
+
+    </section>
+
+    <!-- 8. Dönem Start-->
+    <section id="main_section_container_8" class="flex_column_center">
+
+      <!-- Üstte Upload -->
+      <div class="main_text_item">
+        <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
+        <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz. </p>
+      </div>
+      <a class="main_a_item" href="https://discord.com" target="_blank" rel="nofollow">
+        <button class="main_button_item">8. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
       </a>
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item"> Ders Adı </button>
+      <a class="main_a_item" href="https://mega.nz/megadrop/rrepTw_xrm8" target="_blank" rel="nofollow">
+        <button class="main_button_item">8. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
       </a>
-    </div> 
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item"> Ders Adı </button>
-      </a>
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item"> Ders Adı </button>
-      </a>
-    </div> 
-    <div class="main_small_button_list">
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item"> Ders Adı </button>
-      </a>
-      <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button disabled="disabled" class="main_small_button_item"> Ders Adı </button>
-      </a>
-    </div>
-  
-    <!-- Altta Upload -->
-    <!-- <div class="main_text_item">
-      <p> Arşive Eklenmesini İstediğiniz Dosyaları Alttaki Discord Linkinden Toplu Şekilde,</p>
-      <p> Alternatif Olarak Alttaki Mega Linkini Kullanarak Yükleyebilirsiniz.  </p>
-    </div>
-    <a class="main_a_item" href="https://discord.com" target="_blank" rel="nofollow">  
-      <button class="main_button_item">8. Dönem Arşivine Katkıda Bulunmak İçin. (Discord)</button>
-    </a>
-    <a class="main_a_item" href="https://mega.nz/megadrop/rrepTw_xrm8" target="_blank" rel="nofollow">  
-      <button class="main_button_item">8. Dönem Arşivine Katkıda Bulunmak İçin. (Mega)</button>
-    </a>  -->
-  
-  <!-- <iframe width="250" height="54" frameborder="0" src="https://mega.nz/drop#"></iframe> -->
-  
-  </section>
+
+
+      <div class="main_text_item">
+        <p>4. Yıl 2. Dönem Derslerinin Arşivleri Düzenleniyor!</p>
+      </div>
+
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b"> Ders Adı </button>
+        </a>
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b"> Ders Adı </button>
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b"> Ders Adı </button>
+        </a>
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b"> Ders Adı </button>
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b"> Ders Adı </button>
+        </a>
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b"> Ders Adı </button>
+        </a>
+      </div>
+      <div class="main_small_button_list">
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b"> Ders Adı </button>
+        </a>
+        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+          <button disabled="disabled" class="main_small_button_item_b"> Ders Adı </button>
+        </a>
+      </div>
+
+    </section>
 
   </main>
-  
+
 
   <footer>
     <div class="footer_div_item flex_row_center">
-      <a class="footer_a_item" href="http://w3.bilecik.edu.tr/sks/beslenme-hizmetleri-2/yemek-menusu/" target="_blank" >Mühendis Bot</a>&nbsp;| 2023
+      <a class="footer_a_item" href="http://w3.bilecik.edu.tr/sks/beslenme-hizmetleri-2/yemek-menusu/"
+        target="_blank">Mühendis Bot</a>
+      &nbsp;|&nbsp;
+      <a class="footer_a_item2" href="https://mega.nz/fm/R4g32KTL" target="_blank">2023</a>&nbsp;
     </div>
   </footer>
-    
 
   <script src="js/main.js"></script>
 
@@ -689,7 +582,6 @@
     document.oncontextmenu = new Function("return false");
   </script>
 
+</body>
 
-  </body>
-  
 </html>
