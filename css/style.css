@@ -2,7 +2,7 @@
 :root {
 
   /* You can change the font family in the whole design here. (You need to add the font family to the codes.) */
-  --font_family: 'Inter', sans-serif;
+  --font_family: 'Agenor Neue', 'Inter', 'roboto', sans-serif;
 
   /* You can change the font size here, is proportional to all texts. */
   --font_size: 16px;
@@ -48,6 +48,13 @@
 }
 
 /* Basic Codes */
+
+.header_text h1 {
+  font: var(--font_family);
+  color: var(--title_color);
+  font-size: 2em;
+  cursor: default;
+}
 
 body {
   font: var(--font_size) var(--font_family);
@@ -96,13 +103,6 @@ body {
   border: var(--image_border_px) solid var(--image_border_color);
   border-radius: 50%;
   margin-bottom: 0.5em;
-}
-
-.header_text h1 {
-  font: var(--font_family);
-  color: var(--title_color);
-  font-size: 2em;
-  cursor: default;
 }
 
 .header_text h2 {
