@@ -2,13 +2,13 @@
 :root {
 
   /* You can change the font family in the whole design here. (You need to add the font family to the codes.) */
-  --font_family: 'Agenor Neue', 'Inter', 'roboto', sans-serif;
+  --font_family: monospace, 'Agenor Neue', 'Inter', sans-serif;
 
   /* You can change the font size here, is proportional to all texts. */
   --font_size: 16px;
 
   /* You can change the background color by typing the color code. (If you do not enter a background-image image, the background-color will be active.) */
-  --background_color: #000;
+  --background_color: #ffffff;
   --background_image: url("../img/wallpaper.png");
 
   /* You can change the frame thickness and color of the picture by typing the number of pixels and the color code. */
@@ -47,10 +47,117 @@
   --footer_link_text_color: #af00fa;
 }
 
+.font_alt {
+  font-family: 'Agenor Neue', sans-serif;
+}
+
+.font_alt_2 {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Discord Button */
+
+.buttonDC {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.boxDC {
+  width: 25px;
+  height: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+  cursor: pointer;
+  position: relative;
+  background: #5865F2;
+  overflow: hidden;
+}
+
+.boxDC:before {
+  content: "j";
+  position: absolute;
+  top: 0;
+  background: #0f0f0f;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: -webkit-transform .4s;
+  transition: -webkit-transform .4s;
+  transition: transform .4s;
+  transition: transform .4s, -webkit-transform .4s;
+}
+
+.boxDC:nth-child(2)::before {
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  content: 'O';
+}
+
+.boxDC:nth-child(3)::before {
+  content: 'I';
+}
+
+.boxDC:nth-child(4)::before {
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  content: 'N';
+}
+
+.boxDC:nth-child(5)::before {
+  content: '';
+  background-image: url('../img/discord.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.boxDC:nth-child(6)::before {
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  content: 'U';
+}
+
+.boxDC:nth-child(7)::before {
+  content: 'S';
+}
+
+.buttonDC:hover .boxDC:before {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+
 /* Basic Codes */
 
 .header_text h1 {
-  font: var(--font_family);
+  font: var(--font_family_2);
   color: var(--title_color);
   font-size: 2em;
   cursor: default;
@@ -93,6 +200,7 @@ body {
 
 /* Logo, Title and Description Codes */
 
+
 .header_img {
   padding-top: 1em;
 }
@@ -103,6 +211,8 @@ body {
   border: var(--image_border_px) solid var(--image_border_color);
   border-radius: 50%;
   margin-bottom: 0.5em;
+  box-shadow: -15px 15px 21px #232323,
+    15px -15px 21px #232323;
 }
 
 .header_text h2 {
@@ -167,6 +277,11 @@ body {
   border-radius: 0.3em;
   transition: 0.10s ease;
   font-size: 1.1em;
+}
+
+.header_nav_menu_item:hover {
+
+background-color: #29007bac;
 }
 
 .header_nav_menu_item+.header_nav_menu_item {
