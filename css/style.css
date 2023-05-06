@@ -87,7 +87,7 @@
 }
 
 .boxDC:before {
-  content: "j";
+  content: "J";
   position: absolute;
   top: 0;
   background: #0f0f0f;
