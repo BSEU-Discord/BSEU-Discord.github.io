@@ -133,7 +133,19 @@
   content: '';
   background-image: url('../img/discord.svg');
   background-repeat: no-repeat;
-  background-position: center;
+  animation: jumpAnim 0.7s infinite;
+}
+
+@keyframes jumpAnim {
+  0%{
+    background-position: 50% 20%;
+  }
+  50%{
+    background-position: 50% 80%;
+  }
+  100%{
+    background-position: 50% 20%;
+  }
 }
 
 .boxDC:nth-child(6)::before {
